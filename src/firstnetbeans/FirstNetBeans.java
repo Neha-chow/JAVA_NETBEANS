@@ -18,11 +18,18 @@ public class FirstNetBeans {
         int x = 2;
         //POST INCREMENT
         int y = x++;
-        System.out.println(x);
+        System.out.println(y);
         System.out.println(x);
         //PREINCREMENT
         int a = 5;
         int b = ++a;
+        System.out.println(b);
+        //post decrement
+         y = x--;
+        System.out.println(y);
+        System.out.println(x);
+        //pre decrement
+         b = --a;
         System.out.println(b);
     }
     
